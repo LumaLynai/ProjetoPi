@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background:turquoise;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.527);
+    color: white;
+    padding: 30px;    
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 2px 13px black;
+    margin-bottom: 30px;
+    
+}
+nav{
+    height: 50px;
+    text-align: center;
+}
+a{
+  text-decoration: none;
+  background: white;
+  color: green;
+  font-weight: bold; 
+  padding: 10px;
+  border: solid white;
+  margin:20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.589);
+}
+a:hover{
+    text-decoration: none;
+    background: greenyellow;
+    color: grey;
+    font-weight: bold; 
+    border: solid white;      
+  
+  }
+main{
+    background: white;
+    max-width: 600px;
+    min-width: 200px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.589);
+}
+
+.conteiner{
+    width: 100%;
+    padding: 30px;
+    margin: 0; 
+}
+
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40px;
+    align-items: center;
+    justify-items: left;
+    grid-gap: 30px;
+    margin: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+select{
+    width: 100%;
+    border-radius: 8px;
+    padding: .6em 1.4em .5em .8em;
+    background-image: linear-gradient(to bottom, white, lightgrey);
+    font-weight: 700;
+}
+
+select:hover{
+    border-color: rgb(0, 25, 247);
+}
+
+select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    color: #222; 
+    outline: none;
+  }
+
+.submit{    
+    width: 120px;
+    margin: 50px 0 20px 0; 
+    padding: 10px;
+    background:green;
+    border: none;
+    border-radius: 10px;
+    text-shadow:1px 1px 1px black;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.692);
+    color: white;
+    font-weight: bold;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+p{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 5px ;
+    background-image: linear-gradient(to bottom, white, lightgrey);
+    
+    border: none;
+    border-style:ridge;
+}
+
+input:hover{
+    border-color: blueviolet;
+}
+
+button:hover{
+    text-decoration: none;
+    background: greenyellow;
+    color: grey;
+    font-weight: bold; 
+    border: solid white;           
+}
+
